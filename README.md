@@ -7,7 +7,8 @@ a beta state since more than ... a long time.
 
 What we fixed here:
 * hard-coded kg instead of lbs and cm instead of inch as weight/dimensions in label creation.
-* removed the COD payment modification - we do not use COD and the code messed up payment method for international orders
+* removed the COD payment modification - we do not use COD and the code messed up payment method for international orders.
+* includes php7.1 compatibility/config via https://github.com/gewaechshaus/dhl-module-shipping-m2/commit/60125ac3681df4cbc656a849f8c5c0186f7b1f31 .
 
 DHL Shipping Extension
 ======================
