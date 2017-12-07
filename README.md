@@ -1,3 +1,13 @@
+Raw Living Germanys Fork of DHL Shipping Extension
+==================================================
+
+The situation is awful, DHL and its partner netresearch are neither developing
+transparently, nor were they able to ship a magento2 extension that is beyond
+a beta state since more than ... a long time.
+
+What we fixed here:
+* removed the COD payment modification - we do not use COD and the code messed up payment method for international orders
+
 DHL Shipping Extension
 ======================
 

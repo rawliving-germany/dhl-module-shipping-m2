@@ -25,9 +25,11 @@
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
-    <event name="payment_method_is_active">
-        <observer name="shipping_disable_cod_payment" instance="Dhl\Shipping\Observer\DisableCodPaymentObserver"/>
-    </event>
+    <!-- See https://github.com/rawliving-germany/dhl-module-shipping-m2/issues/1
+      <event name="payment_method_is_active">
+          <observer name="shipping_disable_cod_payment" instance="Dhl\Shipping\Observer\DisableCodPaymentObserver"/>
+      </event>
+    -->
     <event name="sales_order_place_after">
         <observer name="shipping_update_carrier" instance="Dhl\Shipping\Observer\UpdateCarrierObserver" />
     </event>

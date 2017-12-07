@@ -115,11 +115,13 @@
     </type>
 
     <!-- observer -->
-    <type name="Dhl\Shipping\Observer\DisableCodPaymentObserver">
-        <arguments>
-            <argument name="checkoutSession" xsi:type="object">Magento\Checkout\Model\Session</argument>
-        </arguments>
-    </type>
+    <!-- See https://github.com/rawliving-germany/dhl-module-shipping-m2/issues/1
+      <type name="Dhl\Shipping\Observer\DisableCodPaymentObserver">
+          <arguments>
+              <argument name="checkoutSession" xsi:type="object">Magento\Checkout\Model\Session</argument>
+          </arguments>
+      </type>
+    -->
 
     <!-- plugins -->
     <type name="Magento\Checkout\Model\ShippingInformationManagement">
