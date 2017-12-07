@@ -125,15 +125,19 @@ To clean up the database, run the following commands:
 
 Support
 -------
-In case of questions or problems, please have a look at the
-[Support Portal (FAQ)](http://dhl.support.netresearch.de/) first.
+The original authors can only give limited support for their original beta version at their
+[Support Portal (FAQ)](http://dhl.support.netresearch.de/). But right here and now you are
+**looking at a fork of the original release**.
 
-If the issue cannot be resolved, you can contact the support team via the
+Btw, if the issue could not be resolved before the year 2062, you would contact their support team via the
 [Support Portal](http://dhl.support.netresearch.de/) or by sending an email
 to <dhl.support@netresearch.de>.
 
+That said, we cannot give you support either, but feel free to get in contact to improve the situation.
+
 Developer
 ---------
+Original developers (pre-fork)
 * Christoph Aßmann | [Netresearch GmbH & Co. KG](http://www.netresearch.de/) | [@mam08ixo](https://twitter.com/mam08ixo)
 * Sebastian Ertner | [Netresearch GmbH & Co. KG](http://www.netresearch.de/)
 * Benjamin Heuer | [Netresearch GmbH & Co. KG](http://www.netresearch.de/)
